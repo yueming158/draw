@@ -1,17 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T08:17:46.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="Jb6R_XsNKleNjcrTpO-y" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-10T01:31:23.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.1" etag="W64jQOw-1QHtelUBTp3y" type="github">
   <diagram id="c9iqwaSZSdr41dfT_dBc" name="第 1 页">
     <mxGraphModel dx="863" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QcCqp50l1s5BhglePW6Y-2" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="100" height="280" as="geometry" />
+          <mxGeometry x="40" y="250" width="100" height="280" as="geometry" />
         </mxCell>
         <mxCell id="QcCqp50l1s5BhglePW6Y-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="250" width="410" height="280" as="geometry" />
+          <mxGeometry x="190" y="250" width="410" height="280" as="geometry" />
         </mxCell>
         <mxCell id="QcCqp50l1s5BhglePW6Y-4" value="应用服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="60" height="30" as="geometry" />
+          <mxGeometry x="60" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-5" value="短信平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-6" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-7" value="短信通道服务商" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-10" value="金服" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-11" value="积分系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-12" value="小区管家" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-13" value="文旅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-14" value="接收服务&lt;br&gt;sms-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-15" value="发送服务&lt;br&gt;sms-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-16" value="管理服务&lt;br&gt;sms-admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-17" value="管理服务前端&lt;br&gt;sms-admin-portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-18" value="redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-19" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-20" value="rocketmq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcCqp50l1s5BhglePW6Y-21" value="zookeeper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
