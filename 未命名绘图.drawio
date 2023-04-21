@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T08:48:42.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.3" etag="H_D93ZzLDk1H3_71B37J" type="github"><diagram id="t4Y0-xnIP0lJ1FPtkeRx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-21T09:33:44.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.8.3" etag="rLpJl_O3T91nGKTo1iJU" type="github">
+  <diagram id="Tn6fpoUmPcBdTQ85UgXI" name="第 1 页">
+    <mxGraphModel dx="863" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="84" y="70" width="660" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-4" value="用户接口层" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;spacingTop=2;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-5" value="核心处理层" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;spacingTop=2;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-6" value="基础支撑层" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;spacingTop=2;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-7" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;SqlSession&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-8" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;配置解析&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-9" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;SQL执行&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-10" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;参数映射&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-11" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;SQL解析&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-12" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Helvetica Neue, Helvetica, Arial, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;结果映射&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN8lYKCXLgav-Pu1inPw-13" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;插件扩展&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
